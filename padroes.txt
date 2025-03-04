@@ -1,6 +1,6 @@
 sudo apt-get install git-flow
 
-gerando chave assinada
+gerando chave assinatura
 pull request 
 default branch develop
 block signature
