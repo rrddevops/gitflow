@@ -1,0 +1,7 @@
+sudo apt-get install git-flow
+
+gerando chave assinada
+pull request 
+default branch develop
+block signature
+block commit in main
