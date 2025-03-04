@@ -37,3 +37,10 @@ fix: e feat:
 [rodapé(s) opcional(is)]
 feat: permitir que o objeto de configuração fornecido estenda outras configurações
 BREAKING CHANGE: a chave `extends`, no arquivo de configuração, agora é utilizada para estender outro arquivo de configuração
+
+
+
+#Ferramenta para garantir que seus commits estejam em conformidade com commits convencionais . Ela é voltada principalmente para CIs para evitar branches com commits que não estejam em conformidade. O uso como um hook de pré-commit também está sob consideração.
+https://commitsar.aevea.ee/usage/docker/
+docker run --rm --name="commitsar" -w /src -v "$(pwd)":/src aevea/commitsar 
+docker run --rm --name="commitsar" -w /src -v "$(pwd)":/src aevea/commitsar ./path-to-repo
