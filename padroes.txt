@@ -5,3 +5,11 @@ pull request
 default branch develop
 block signature
 block commit in main
+
+#branch and commit
+git checkout develop
+git checkout -b feature/name
+git add .
+git commit -m 'commit name'
+
+
